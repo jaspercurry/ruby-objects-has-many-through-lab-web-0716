@@ -34,3 +34,31 @@ class Doctor
 
 
 end
+
+
+
+class Jasper
+
+  def name=(name)
+    @name = name
+  end
+
+  def name
+    @name
+  end
+end
+
+class Person
+  def initialize
+    @peeps = []
+  end
+
+  def add_peeps(peep)
+    self.peeps < peep
+  end
+
+  def peeps
+    @peeps
+  end
+
+end
